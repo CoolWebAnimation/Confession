@@ -4,6 +4,7 @@ import solidSvg from 'vite-plugin-solid-svg'
 // import devtools from 'solid-devtools/vite';
 
 export default defineConfig({
+  base: "/Confession/",
   plugins: [
     /* 
     Uncomment the following line to enable solid-devtools.
